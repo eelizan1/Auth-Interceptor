@@ -1,8 +1,11 @@
 # Angular Authentication
+![Screenshot 2024-01-14 at 2 14 15 PM](https://github.com/eelizan1/Auth-Interceptor/assets/15695349/4684ccf3-40bf-40f5-84af-5624012dd224)
+
 
 Simple authentication application with login and register page using JWT.
 
 JWTs are used in authentication to securely transfer information between two parties, typically the user and the server. When we login we get a token after that which need to pass that token in the header for any other remaining calls.
+Once logged in the application wil  make a call to `getAllUsers()` using the Interceptor to pass in the JWT. 
 
 ## Main Features
 
